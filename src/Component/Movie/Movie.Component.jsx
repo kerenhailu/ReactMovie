@@ -7,8 +7,8 @@ const Movie=()=>{
 <h1>
      name Movies : {NameMovieContext.map((item)=>
      <div>
-    <p>{item.movieName}</p> 
-    <p>{item.rating}</p>)
+    <p> name : {item.movieName}</p> 
+    <p>num rating : {item.rating}</p>
     </div> )}</h1>
     </div>)
 }
