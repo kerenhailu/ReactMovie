@@ -6,19 +6,21 @@ import Votes from './Component/Votes/Votes.Copmonent';
 import AddMovie from './Component/AddMovie/AddMovie.component';
 import Watching from './Component/Watching/Watching.Component';
 import Comments from './Component/Comments/Comments.Component';
+import Test from './Test/Test.Component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Comments/>
+        {/* <Comments/> */}
         {/* <Watching/> */}
-        <AddMovie/>
-        <Votes/>
+        {/* <AddMovie/> */}
+        <Test/>
+        {/* <Votes/>
         <ContextMovie>
         <Home/>
-        </ContextMovie>
+        </ContextMovie> */}
 
 
       </header>

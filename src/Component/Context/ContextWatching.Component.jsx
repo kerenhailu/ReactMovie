@@ -8,6 +8,7 @@ export const ContextWatching = ({children}) => {
     { name: "dan", text: "dont like it", numberView: 99 },
     { name: "dana", text: "woww", numberView: 8 },
   ];
+  
 
   return (
     <CreateWatchingContext.Provider value={ArrayWatching}>
